@@ -368,7 +368,7 @@ func getTrackerServer(hosts []string) (*Server, error) {
 
 
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
- * 删除文件
+ * 查询文件信息
  * remoteFileId: 远程文件id
  * ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 func (this *FdfsClient) QueryFile(remoteFileId string) (*QueryFileInfoResponse,error) {
@@ -394,10 +394,10 @@ func (this *FdfsClient) QueryFile(remoteFileId string) (*QueryFileInfoResponse,e
 
 
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
- * 上传从磁盘文件数据
+ * 追加上传从磁盘文件数据
  * filename: 文件名
  * remoteFileId: 远程文件id
- * prefixName: 前缀
+ * fileOffset: 偏移量
  * ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 func (this *FdfsClient) ModifyByFilename(filename, remoteFileId string,fileOffset int64) (error) {
 	if err := checkFile(filename); err != nil {

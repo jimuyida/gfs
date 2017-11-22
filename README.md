@@ -3,6 +3,7 @@ golang fastdfs client
 
 修改自：https://github.com/sanxia/gfs
 
+### tips
 STORAGE_PROTO_CMD_APPEND_FILE  直接追加文件末尾
 STORAGE_PROTO_CMD_MODIFY_FILE  有offset追加
 
@@ -25,6 +26,7 @@ client.DeleteFile(r.FileId)
 ```golang
 r,e := client.UploadAppenderByFilename(filename)
 log.Println(r,e)
+//15717 offset要注意 不能超过文件大小
 e = client.ModifyByFilename(filename,r.FileId,15717)
 log.Println(r,e)
 ```

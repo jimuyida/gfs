@@ -234,13 +234,6 @@ type (
 
 
 	QueryFileInfoResponse struct {
-		/*
-		time_t create_timestamp;
-	int crc32;
-	int source_id;   //source storage id
-	int64_t file_size;
-	char source_ip_addr[IP_ADDRESS_SIZE];  //source storage ip address
-		*/
 		ipAddr         string
 		crc32           int
 		fileSize      int

@@ -418,8 +418,10 @@ func (this *StorageClient) storageQueryFileInfo(tc *TrackerClient, storeServ *St
 
 
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
- * 上传主文件
+ * 追加上传文件
  * filename: 文件名
+ * fileOffset: 偏移量
+ * remoteFileId: 远程文件ID
  * ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 func (this *StorageClient) storageModifyByFilename(tc *TrackerClient,
 	storeServ *StorageServer, filename string,fileOffset int64,remoteFileId string) (error) {
@@ -436,8 +438,10 @@ func (this *StorageClient) storageModifyByFilename(tc *TrackerClient,
 }
 
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
- * 上传主文件
+ * 追加上传文件
  * fileBuffer: 字节数组
+ * fileOffset: 偏移量
+ * remoteFileId: 远程文件ID
  * ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 func (this *StorageClient) storageModifyBuffer(tc *TrackerClient,
 	storeServ *StorageServer, fileBuffer []byte,fileOffset int64,remoteFileId string) (error) {
