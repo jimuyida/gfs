@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d794d6a-f50f-40ad-8e33-67553f6aa6aa" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="$PROJECT_DIR$/fdfs_client.go" afterPath="$PROJECT_DIR$/fdfs_client.go" />
-      <change beforePath="$PROJECT_DIR$/fdfs_protol.go" afterPath="$PROJECT_DIR$/fdfs_protol.go" />
-      <change beforePath="$PROJECT_DIR$/storage_client.go" afterPath="$PROJECT_DIR$/storage_client.go" />
-      <change beforePath="$PROJECT_DIR$/utils.go" afterPath="$PROJECT_DIR$/utils.go" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cmd/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+            <state relative-caret-position="519">
+              <caret line="41" column="21" lean-forward="true" selection-start-line="40" selection-start-column="4" selection-end-line="41" selection-end-column="21" />
               <folding>
                 <element signature="e#14#44#0" expanded="true" />
               </folding>
@@ -42,8 +38,18 @@
       <file leaf-file-name="fdfs_protol.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fdfs_protol.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="361" column="6" lean-forward="false" selection-start-line="361" selection-start-column="6" selection-end-line="361" selection-end-column="6" />
+            <state relative-caret-position="380">
+              <caret line="65" column="33" lean-forward="false" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="608">
+              <caret line="32" column="57" lean-forward="false" selection-start-line="32" selection-start-column="57" selection-end-line="32" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -53,7 +59,7 @@
         <entry file="file://$PROJECT_DIR$/utils.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="559">
-              <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+              <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -62,8 +68,8 @@
       <file leaf-file-name="storage_client.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/storage_client.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="83" column="58" lean-forward="false" selection-start-line="83" selection-start-column="27" selection-end-line="83" selection-end-column="58" />
+            <state relative-caret-position="185">
+              <caret line="487" column="42" lean-forward="false" selection-start-line="487" selection-start-column="13" selection-end-line="487" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -83,7 +89,7 @@
         <entry file="file://$PROJECT_DIR$/tracker_client.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-480">
-              <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+              <caret line="27" column="19" lean-forward="false" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -118,10 +124,10 @@
       <find>append</find>
       <find>uploadf</find>
       <find>storageDeleteFile</find>
-      <find>uploadSlaveFileRequest</find>
       <find>upload</find>
       <find>remoteFileId</find>
       <find>storageUploadAppenderByFilename</find>
+      <find>uploadSlaveFileRequest</find>
     </findStrings>
   </component>
   <component name="GOROOT" path="D:\Go" />
@@ -136,6 +142,7 @@
         <option value="$PROJECT_DIR$/utils.go" />
         <option value="$PROJECT_DIR$/fdfs_protol.go" />
         <option value="$PROJECT_DIR$/cmd/main.go" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -286,7 +293,7 @@
     <entry file="file://$PROJECT_DIR$/tracker_client.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-480">
-          <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+          <caret line="27" column="19" lean-forward="false" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -294,15 +301,7 @@
     <entry file="file://$PROJECT_DIR$/utils.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="559">
-          <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fdfs_protol.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="361" column="6" lean-forward="false" selection-start-line="361" selection-start-column="6" selection-end-line="361" selection-end-column="6" />
+          <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -311,14 +310,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="156" column="5" lean-forward="false" selection-start-line="156" selection-start-column="5" selection-end-line="156" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage_client.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="83" column="58" lean-forward="false" selection-start-line="83" selection-start-column="27" selection-end-line="83" selection-end-column="58" />
           <folding />
         </state>
       </provider>
@@ -336,13 +327,37 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/storage_client.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="487" column="42" lean-forward="false" selection-start-line="487" selection-start-column="13" selection-end-line="487" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fdfs_protol.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="65" column="33" lean-forward="false" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cmd/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        <state relative-caret-position="519">
+          <caret line="41" column="21" lean-forward="true" selection-start-line="40" selection-start-column="4" selection-end-line="41" selection-end-column="21" />
           <folding>
             <element signature="e#14#44#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="32" column="57" lean-forward="false" selection-start-line="32" selection-start-column="57" selection-end-line="32" selection-end-column="57" />
+          <folding />
         </state>
       </provider>
     </entry>
